@@ -17,6 +17,7 @@ public class get_VS_navigate {
         WebDriver driver = new ChromeDriver();
         driver.get("https://bing.com");
         // No back, forward allowed in case of get
+
         driver.navigate().to("https://app.vwo.com");
         driver.navigate().to(new URL("https://google.com"));
         driver.navigate().back();
