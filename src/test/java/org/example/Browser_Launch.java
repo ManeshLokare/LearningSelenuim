@@ -17,7 +17,7 @@ public class Browser_Launch {
         WebDriver driver = new ChromeDriver();
         driver.get("https://app.vwo.com");
         System.out.println("Launched Browser Successfully");
-
+        driver.quit();
     }
 
     @Test
@@ -27,6 +27,7 @@ public class Browser_Launch {
         WebDriver driver = new EdgeDriver();
         driver.get("https://app.vwo.com");
         System.out.println("Launched Browser Successfully");
+        driver.quit();
     }
 
     @Test
@@ -36,6 +37,8 @@ public class Browser_Launch {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://app.vwo.com");
         System.out.println("Launched Browser Successfully");
+        driver.quit();
+
     }
 
 

@@ -11,6 +11,7 @@ import java.net.URL;
 public class get_VS_navigate {
 
     // get vs Navigate.to()
+    
 
     @Test
     public void get_navigate() throws MalformedURLException {
