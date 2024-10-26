@@ -1,3 +1,4 @@
+
 package org.example.Practice;
 
 import io.qameta.allure.Description;
@@ -7,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+
 
 import java.util.List;
 
